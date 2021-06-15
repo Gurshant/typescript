@@ -2,12 +2,12 @@ const person:{
   name: string;
   age: number;
   hobbies: string[];
+  // TUPLE, sets initial array length and the types for first 2
   role: [number, string];
 } = {
   name: 'Jon',
   age: 30,
   hobbies: ['Sports', 'Cooking'],
-  // TUPLE, sets initial array length and the types for first 2
   role: [2, 'author']
 };
 
